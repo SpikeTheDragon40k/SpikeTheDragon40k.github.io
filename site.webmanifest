@@ -1,9 +1,9 @@
 {
-    "name": "sitename",
-    "short_name": "sitename",
-    "start_url": "/",
+    "name": "Spike Blog",
+    "short_name": "Spike Blog",
+    "start_url": "https://SpikeTheDragon40k.github.io/",
     "theme_color": "#434648",
-    "background_color": "#fff",
+    "background_color": "#131418",
     "display": "standalone",
     "icons": [
         {
