@@ -6,7 +6,21 @@
     <description>Recent content on Spike Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 08 May 2025 11:57:20 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 May 2025 12:51:13 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-2025 0411</title>
+      <link>https://SpikeTheDragon40k.github.io/posts/cve-2025-0411/</link>
+      <pubDate>Thu, 08 May 2025 12:51:13 +0200</pubDate>
+      
+      <guid>https://SpikeTheDragon40k.github.io/posts/cve-2025-0411/</guid>
+      
+      <description>&lt;hr&gt;
+&lt;h1 id=&#34;english&#34;&gt;English&lt;/h1&gt;
+&lt;h1 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-0411&#34;&gt;CVE-2025-0411&lt;/a&gt; is a high-severity vulnerability identified in the widely used 7-Zip archiving tool. The flaw lies in how 7-Zip processes specially crafted &lt;code&gt;.7z&lt;/code&gt; files, which can lead to arbitrary code execution or denial of service. Initially disclosed by Trend Micro’s Zero Day Initiative (ZDI-25-045), the vulnerability poses a serious threat due to 7-Zip&amp;rsquo;s extensive use across consumer and enterprise environments. While no active exploitation has been reported at the time of writing, the availability of public proof-of-concept code increases the likelihood of weaponization.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>CTI Analysis: Oilrig</title>
       <link>https://SpikeTheDragon40k.github.io/posts/oilriganalysis/</link>
@@ -14,8 +28,9 @@
       
       <guid>https://SpikeTheDragon40k.github.io/posts/oilriganalysis/</guid>
       
-      <description>&lt;h1 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h1&gt;
-&lt;p&gt;La &lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2024-30088&#34;&gt;CVE-2024-30088&lt;/a&gt; rappresenta una vulnerabilità critica recentemente sfruttata dal gruppo hacker APT34, conosciuto anche come OilRig, un&amp;rsquo;entità collegata al governo iraniano. Questa falla consente l’elevazione dei privilegi all&amp;rsquo;interno del kernel di Windows, permettendo agli attori malevoli di ottenere accesso amministrativo completo sui sistemi infetti. Il gruppo ha impiegato questo exploit per condurre operazioni di spionaggio mirate contro governi e infrastrutture critiche, con un focus particolare sul Golfo Persico e gli Emirati Arabi Uniti. Gli attacchi fanno parte di una campagna più ampia volta a stabilire un accesso persistente e a sottrarre credenziali sensibili tramite server Microsoft Exchange compromessi.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;english&#34;&gt;English&lt;/h1&gt;
+&lt;h1 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h1&gt;
+&lt;p&gt;CVE-2024-30088 is a high-impact vulnerability recently leveraged by the hacking group APT34 (a.k.a. OilRig), a threat actor with ties to the Iranian government. This flaw allows privilege escalation within the Windows kernel, granting attackers administrative privileges on affected systems. The group has exploited this vulnerability to carry out espionage campaigns targeting government entities and critical infrastructure, especially in the Persian Gulf region and the United Arab Emirates. These attacks are part of a broader effort to establish persistent access and exfiltrate sensitive credentials by compromising Microsoft Exchange servers.&lt;/p&gt;</description>
       
     </item>
     

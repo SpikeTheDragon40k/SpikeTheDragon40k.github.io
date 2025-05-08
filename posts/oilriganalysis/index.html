@@ -53,7 +53,7 @@
         },
         "datePublished": "2025-05-08",
         "description": "",
-        "wordCount":  764 ,
+        "wordCount":  765 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-05-08",
         "image": {
@@ -74,7 +74,7 @@
     <meta property="og:url" content="https://SpikeTheDragon40k.github.io/posts/oilriganalysis/">
   <meta property="og:site_name" content="Spike Blog">
   <meta property="og:title" content="CTI Analysis: Oilrig">
-  <meta property="og:description" content="Executive Summary La CVE-2024-30088 rappresenta una vulnerabilità critica recentemente sfruttata dal gruppo hacker APT34, conosciuto anche come OilRig, un’entità collegata al governo iraniano. Questa falla consente l’elevazione dei privilegi all’interno del kernel di Windows, permettendo agli attori malevoli di ottenere accesso amministrativo completo sui sistemi infetti. Il gruppo ha impiegato questo exploit per condurre operazioni di spionaggio mirate contro governi e infrastrutture critiche, con un focus particolare sul Golfo Persico e gli Emirati Arabi Uniti. Gli attacchi fanno parte di una campagna più ampia volta a stabilire un accesso persistente e a sottrarre credenziali sensibili tramite server Microsoft Exchange compromessi.">
+  <meta property="og:description" content="English Executive Summary CVE-2024-30088 is a high-impact vulnerability recently leveraged by the hacking group APT34 (a.k.a. OilRig), a threat actor with ties to the Iranian government. This flaw allows privilege escalation within the Windows kernel, granting attackers administrative privileges on affected systems. The group has exploited this vulnerability to carry out espionage campaigns targeting government entities and critical infrastructure, especially in the Persian Gulf region and the United Arab Emirates. These attacks are part of a broader effort to establish persistent access and exfiltrate sensitive credentials by compromising Microsoft Exchange servers.">
   <meta property="og:locale" content="en_gb">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -86,7 +86,7 @@
     
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="CTI Analysis: Oilrig">
-  <meta name="twitter:description" content="Executive Summary La CVE-2024-30088 rappresenta una vulnerabilità critica recentemente sfruttata dal gruppo hacker APT34, conosciuto anche come OilRig, un’entità collegata al governo iraniano. Questa falla consente l’elevazione dei privilegi all’interno del kernel di Windows, permettendo agli attori malevoli di ottenere accesso amministrativo completo sui sistemi infetti. Il gruppo ha impiegato questo exploit per condurre operazioni di spionaggio mirate contro governi e infrastrutture critiche, con un focus particolare sul Golfo Persico e gli Emirati Arabi Uniti. Gli attacchi fanno parte di una campagna più ampia volta a stabilire un accesso persistente e a sottrarre credenziali sensibili tramite server Microsoft Exchange compromessi.">
+  <meta name="twitter:description" content="English Executive Summary CVE-2024-30088 is a high-impact vulnerability recently leveraged by the hacking group APT34 (a.k.a. OilRig), a threat actor with ties to the Iranian government. This flaw allows privilege escalation within the Windows kernel, granting attackers administrative privileges on affected systems. The group has exploited this vulnerability to carry out espionage campaigns targeting government entities and critical infrastructure, especially in the Persian Gulf region and the United Arab Emirates. These attacks are part of a broader effort to establish persistent access and exfiltrate sensitive credentials by compromising Microsoft Exchange servers.">
 
 
     
@@ -196,37 +196,8 @@ stroke-linejoin="round" class="feather feather-home">
             </header>
             
             <div class="page-content">
-                <h1 id="executive-summary">Executive Summary</h1>
-<p>La <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-30088">CVE-2024-30088</a> rappresenta una vulnerabilità critica recentemente sfruttata dal gruppo hacker APT34, conosciuto anche come OilRig, un&rsquo;entità collegata al governo iraniano. Questa falla consente l’elevazione dei privilegi all&rsquo;interno del kernel di Windows, permettendo agli attori malevoli di ottenere accesso amministrativo completo sui sistemi infetti. Il gruppo ha impiegato questo exploit per condurre operazioni di spionaggio mirate contro governi e infrastrutture critiche, con un focus particolare sul Golfo Persico e gli Emirati Arabi Uniti. Gli attacchi fanno parte di una campagna più ampia volta a stabilire un accesso persistente e a sottrarre credenziali sensibili tramite server Microsoft Exchange compromessi.</p>
-<h2 id="tecnologie-coinvolte">Tecnologie Coinvolte</h2>
-<p>Le principali tecnologie colpite comprendono i sistemi operativi Microsoft Windows (dove è stata rilevata la vulnerabilità di privilege escalation) e i server Microsoft Exchange, utilizzati come vettori per la raccolta di credenziali. I cyber criminali adottano diverse tecniche, tra cui l’installazione di web shell su server vulnerabili e l’uso della backdoor StealHook per esfiltrare informazioni. L&rsquo;exploit legato alla CVE-2024-30088 permette agli attaccanti di ottenere pieno controllo sui sistemi compromessi, installando strumenti aggiuntivi come ngrok per garantire l’accesso e comunicare in maniera furtiva.</p>
-<h1 id="livello-di-rischio">Livello di Rischio</h1>
-<p>Il livello di rischio associato a questa vulnerabilità è estremamente elevato, poiché consente il completo controllo del sistema compromesso. CVE-2024-30088 è classificata come vulnerabilità ad alta gravità poiché permette l&rsquo;esecuzione di codice arbitrario con privilegi di sistema.</p>
-<h3 id="dettagli-dellexploit">Dettagli dell’Exploit:</h3>
-<ol>
-<li><strong>Accesso Iniziale</strong>: OilRig distribuisce payload malevoli sfruttando la vulnerabilità del kernel di Windows, spesso in ambienti con Microsoft Exchange non aggiornato. Il vettore iniziale di compromissione è spesso rappresentato da campagne di phishing.</li>
-<li><strong>Sfruttamento</strong>: La vulnerabilità consente di eludere i controlli sui privilegi attraverso exploit di memoria nel kernel, permettendo l’esecuzione di codice arbitrario e il furto di credenziali.</li>
-<li><strong>Fase di Post-Exploitation</strong>: Dopo aver ottenuto privilegi elevati, OilRig impiega strumenti come STEALHOOK, una backdoor personalizzata che consente accesso remoto, ricognizione del sistema ed esfiltrazione di dati.</li>
-</ol>
-<h3 id="misure-di-mitigazione">Misure di Mitigazione:</h3>
-<ol>
-<li><strong>Aggiornamento delle Patch</strong>: Applicare le ultime patch disponibili, incluso il fix per CVE-2024-30088.</li>
-<li><strong>Segmentazione della Rete</strong>: Separare le infrastrutture critiche dalle reti utenti comuni.</li>
-<li><strong>Soluzioni EDR (Endpoint Detection &amp; Response)</strong>: Adottare soluzioni EDR per rilevare comportamenti anomali associati all’escalation di privilegi e al movimento laterale.</li>
-<li><strong>Whitelist delle Applicazioni</strong>: Limitare l’esecuzione di software non firmato per prevenire attacchi di tipo DLL Injection.</li>
-<li><strong>Autenticazione a Più Fattori (MFA)</strong>: Attivare la MFA per proteggere accessi sensibili, in particolare quelli legati a email e ruoli amministrativi.</li>
-</ol>
-<p><img src="/images/OilrigExpl.png" alt="Oilrig"></p>
-<h1 id="link-utili">Link Utili</h1>
-<ol>
-<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-30088">https://nvd.nist.gov/vuln/detail/CVE-2024-30088</a></li>
-<li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30088">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30088</a></li>
-<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30088">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30088</a></li>
-<li><a href="https://attack.mitre.org/groups/G0049/">https://attack.mitre.org/groups/G0049/</a></li>
-</ol>
-<hr>
-<h1 id="english">English</h1>
-<h1 id="executive-summary-1">Executive Summary</h1>
+                <h1 id="english">English</h1>
+<h1 id="executive-summary">Executive Summary</h1>
 <p>CVE-2024-30088 is a high-impact vulnerability recently leveraged by the hacking group APT34 (a.k.a. OilRig), a threat actor with ties to the Iranian government. This flaw allows privilege escalation within the Windows kernel, granting attackers administrative privileges on affected systems. The group has exploited this vulnerability to carry out espionage campaigns targeting government entities and critical infrastructure, especially in the Persian Gulf region and the United Arab Emirates. These attacks are part of a broader effort to establish persistent access and exfiltrate sensitive credentials by compromising Microsoft Exchange servers.</p>
 <h2 id="affected-technologies">Affected Technologies</h2>
 <p>Key technologies impacted include Microsoft Windows operating systems, where the elevation of privilege flaw was discovered, and Microsoft Exchange servers, which have been targeted for credential harvesting. The threat actors utilize several methods, such as deploying web shells on vulnerable servers and employing the custom backdoor StealHook to extract data. Through exploitation of CVE-2024-30088, attackers can gain full control over affected systems, deploying additional tools like ngrok to maintain covert access.</p>
@@ -248,6 +219,36 @@ stroke-linejoin="round" class="feather feather-home">
 </ol>
 <p><img src="/images/OilrigExpl.png" alt="Oilrig"></p>
 <h1 id="useful-links">Useful Links</h1>
+<ol>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-30088">https://nvd.nist.gov/vuln/detail/CVE-2024-30088</a></li>
+<li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30088">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30088</a></li>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30088">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30088</a></li>
+<li><a href="https://attack.mitre.org/groups/G0049/">https://attack.mitre.org/groups/G0049/</a></li>
+</ol>
+<hr>
+<h1 id="italian">Italian</h1>
+<h1 id="executive-summary-1">Executive Summary</h1>
+<p>La <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-30088">CVE-2024-30088</a> rappresenta una vulnerabilità critica recentemente sfruttata dal gruppo hacker APT34, conosciuto anche come OilRig, un&rsquo;entità collegata al governo iraniano. Questa falla consente l’elevazione dei privilegi all&rsquo;interno del kernel di Windows, permettendo agli attori malevoli di ottenere accesso amministrativo completo sui sistemi infetti. Il gruppo ha impiegato questo exploit per condurre operazioni di spionaggio mirate contro governi e infrastrutture critiche, con un focus particolare sul Golfo Persico e gli Emirati Arabi Uniti. Gli attacchi fanno parte di una campagna più ampia volta a stabilire un accesso persistente e a sottrarre credenziali sensibili tramite server Microsoft Exchange compromessi.</p>
+<h2 id="tecnologie-coinvolte">Tecnologie Coinvolte</h2>
+<p>Le principali tecnologie colpite comprendono i sistemi operativi Microsoft Windows (dove è stata rilevata la vulnerabilità di privilege escalation) e i server Microsoft Exchange, utilizzati come vettori per la raccolta di credenziali. I cyber criminali adottano diverse tecniche, tra cui l’installazione di web shell su server vulnerabili e l’uso della backdoor StealHook per esfiltrare informazioni. L&rsquo;exploit legato alla CVE-2024-30088 permette agli attaccanti di ottenere pieno controllo sui sistemi compromessi, installando strumenti aggiuntivi come ngrok per garantire l’accesso e comunicare in maniera furtiva.</p>
+<h1 id="livello-di-rischio">Livello di Rischio</h1>
+<p>Il livello di rischio associato a questa vulnerabilità è estremamente elevato, poiché consente il completo controllo del sistema compromesso. CVE-2024-30088 è classificata come vulnerabilità ad alta gravità poiché permette l&rsquo;esecuzione di codice arbitrario con privilegi di sistema.</p>
+<h3 id="dettagli-dellexploit">Dettagli dell’Exploit:</h3>
+<ol>
+<li><strong>Accesso Iniziale</strong>: OilRig distribuisce payload malevoli sfruttando la vulnerabilità del kernel di Windows, spesso in ambienti con Microsoft Exchange non aggiornato. Il vettore iniziale di compromissione è spesso rappresentato da campagne di phishing.</li>
+<li><strong>Sfruttamento</strong>: La vulnerabilità consente di eludere i controlli sui privilegi attraverso exploit di memoria nel kernel, permettendo l’esecuzione di codice arbitrario e il furto di credenziali.</li>
+<li><strong>Fase di Post-Exploitation</strong>: Dopo aver ottenuto privilegi elevati, OilRig impiega strumenti come STEALHOOK, una backdoor personalizzata che consente accesso remoto, ricognizione del sistema ed esfiltrazione di dati.</li>
+</ol>
+<h3 id="misure-di-mitigazione">Misure di Mitigazione:</h3>
+<ol>
+<li><strong>Aggiornamento delle Patch</strong>: Applicare le ultime patch disponibili, incluso il fix per CVE-2024-30088.</li>
+<li><strong>Segmentazione della Rete</strong>: Separare le infrastrutture critiche dalle reti utenti comuni.</li>
+<li><strong>Soluzioni EDR (Endpoint Detection &amp; Response)</strong>: Adottare soluzioni EDR per rilevare comportamenti anomali associati all’escalation di privilegi e al movimento laterale.</li>
+<li><strong>Whitelist delle Applicazioni</strong>: Limitare l’esecuzione di software non firmato per prevenire attacchi di tipo DLL Injection.</li>
+<li><strong>Autenticazione a Più Fattori (MFA)</strong>: Attivare la MFA per proteggere accessi sensibili, in particolare quelli legati a email e ruoli amministrativi.</li>
+</ol>
+<p><img src="/images/OilrigExpl.png" alt="Oilrig"></p>
+<h1 id="link-utili">Link Utili</h1>
 <ol>
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-30088">https://nvd.nist.gov/vuln/detail/CVE-2024-30088</a></li>
 <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30088">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30088</a></li>
