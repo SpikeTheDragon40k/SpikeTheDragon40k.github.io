@@ -6,7 +6,19 @@
     <description>Recent content on Spike Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 09 May 2025 12:28:41 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 May 2025 11:28:41 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTI Analysis: Volt Typhoon</title>
+      <link>https://SpikeTheDragon40k.github.io/posts/aptvolttyphoon/</link>
+      <pubDate>Fri, 09 May 2025 11:28:41 +0200</pubDate>
+      
+      <guid>https://SpikeTheDragon40k.github.io/posts/aptvolttyphoon/</guid>
+      
+      <description>&lt;h1 id=&#34;-volt-typhoon-chinas-stealth-apt-targeting-critical-infrastructure&#34;&gt;⚡ Volt Typhoon: China&amp;rsquo;s Stealth APT Targeting Critical Infrastructure&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Volt Typhoon&lt;/strong&gt; is a sophisticated, state-sponsored Advanced Persistent Threat (APT) group attributed to the People&amp;rsquo;s Republic of China (PRC). Active since at least mid-2021, the group focuses on cyber-espionage and pre-positioning within critical infrastructure sectors, primarily in the United States. Their operations are characterized by stealth, persistence, and the strategic use of &amp;ldquo;living-off-the-land&amp;rdquo; techniques to evade detection.(&lt;a href=&#34;https://www.txone.com/blog/volt-typhoon-and-supply-chain-vulnerabilities/?utm_source=chatgpt.com&#34; title=&#34;The Latent Storm: Volt Typhoon and Supply Chain Vulnerabilities&#34;&gt;TxOne&lt;/a&gt;, &lt;a href=&#34;https://unit42.paloaltonetworks.com/volt-typhoon-threat-brief/?utm_source=chatgpt.com&#34; title=&#34;Threat Brief: Attacks on Critical Infrastructure Attributed to Insidious ...&#34;&gt;Unit 42&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Volt_Typhoon?utm_source=chatgpt.com&#34; title=&#34;Volt Typhoon&#34;&gt;Wikipedia&lt;/a&gt;)&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>RealWorld: LockBit Strikes</title>
       <link>https://SpikeTheDragon40k.github.io/posts/realworld_lockbit/</link>
