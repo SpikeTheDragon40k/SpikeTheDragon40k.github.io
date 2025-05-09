@@ -8,6 +8,21 @@
     <language>en-gb</language>
     <lastBuildDate>Fri, 09 May 2025 12:28:41 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>RealWorld: LockBit Strikes</title>
+      <link>https://SpikeTheDragon40k.github.io/posts/realworld_lockbit/</link>
+      <pubDate>Fri, 09 May 2025 10:10:36 +0200</pubDate>
+      
+      <guid>https://SpikeTheDragon40k.github.io/posts/realworld_lockbit/</guid>
+      
+      <description>&lt;h1 id=&#34;english&#34;&gt;English&lt;/h1&gt;
+&lt;h1 id=&#34;realworld-lockbit-strikes&#34;&gt;RealWorld: LockBit Strikes&lt;/h1&gt;
+&lt;p&gt;In today’s cybersecurity landscape, ransomware attacks remain one of the most severe threats to businesses—especially when executed in a coordinated and large-scale manner. A recent incident involved a major compromise affecting over &lt;strong&gt;5,000 endpoints across 7 corporate sites&lt;/strong&gt;, including &lt;strong&gt;5 production facilities&lt;/strong&gt;. The attack led to a &lt;strong&gt;complete halt in business operations&lt;/strong&gt;, highlighting the vulnerability of even seemingly robust infrastructures.&lt;/p&gt;
+&lt;h2 id=&#34;the-attack-dynamics&#34;&gt;The Attack Dynamics&lt;/h2&gt;
+&lt;p&gt;The attack has been attributed to the notorious ransomware group &lt;strong&gt;LockBit&lt;/strong&gt;, one of the most active and dangerous cyber gangs in recent years. The malware struck numerous systems simultaneously, encrypting data and rendering IT resources unusable. The production sites—core to the company&amp;rsquo;s operations—were taken completely offline, halting the supply chain and logistics with severe economic consequences.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>MFA Fatigue Attacks</title>
       <link>https://SpikeTheDragon40k.github.io/posts/mfafatigue/</link>
       <pubDate>Fri, 09 May 2025 09:00:47 +0200</pubDate>
