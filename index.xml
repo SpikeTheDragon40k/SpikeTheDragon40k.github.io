@@ -6,7 +6,20 @@
     <description>Recent content on Spike Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 09 May 2025 11:18:41 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 May 2025 14:04:09 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LockBit Ransomware Gang Hacked: Victim Negotiations Leaked in Major Breach</title>
+      <link>https://SpikeTheDragon40k.github.io/posts/lockbitget/</link>
+      <pubDate>Fri, 09 May 2025 14:04:09 +0200</pubDate>
+      
+      <guid>https://SpikeTheDragon40k.github.io/posts/lockbitget/</guid>
+      
+      <description>&lt;h1 id=&#34;lockbit-ransomware-gang-hacked--victim-negotiations-exposed&#34;&gt;LockBit Ransomware Gang Hacked – Victim Negotiations Exposed&lt;/h1&gt;
+&lt;p&gt;The LockBit ransomware gang, one of the most prolific cybercriminal groups in recent years, has suffered a significant breach. Their dark web affiliate panels were defaced with the message “Don’t do crime CRIME IS BAD xoxo from Prague,” linking to a MySQL database dump. This archive contains a SQL file from LockBit’s affiliate panel database that includes twenty tables, notably including a ‘btc_addresses’ table with 59,975 unique bitcoin addresses and a ‘chats’ table containing over 4,400 victim negotiation messages from December 2024 to the end of April 2025. &lt;br&gt;
+&lt;img src=&#34;https://SpikeTheDragon40k.github.io/images/lock2.jpg&#34; alt=&#34;Lock2&#34;&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>CTI Analysis: Volt Typhoon</title>
       <link>https://SpikeTheDragon40k.github.io/posts/aptvolttyphoon/</link>
