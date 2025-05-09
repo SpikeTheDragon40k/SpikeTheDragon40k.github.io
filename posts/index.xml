@@ -8,6 +8,21 @@
     <language>en-gb</language>
     <lastBuildDate>Fri, 09 May 2025 12:28:41 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>MFA Fatigue Attacks</title>
+      <link>https://SpikeTheDragon40k.github.io/posts/mfafatigue/</link>
+      <pubDate>Fri, 09 May 2025 09:00:47 +0200</pubDate>
+      
+      <guid>https://SpikeTheDragon40k.github.io/posts/mfafatigue/</guid>
+      
+      <description>&lt;h1 id=&#34;english&#34;&gt;English&lt;/h1&gt;
+&lt;h1 id=&#34;-mfa-fatigue-attacks-when-multi-factor-becomes-a-multi-failure&#34;&gt;🔐 MFA Fatigue Attacks: When Multi-Factor Becomes a Multi-Failure&lt;/h1&gt;
+&lt;p&gt;Multi-Factor Authentication (MFA) was once hailed as the gold standard of secure authentication. But threat actors, always watching and adapting, have flipped the script. Enter &lt;em&gt;MFA fatigue attacks&lt;/em&gt; — a low-tech but high-impact tactic that exploits the weakest link: human behavior.&lt;/p&gt;
+&lt;h2 id=&#34;-the-psychology-behind-push-bombing&#34;&gt;🧠 The Psychology Behind Push Bombing&lt;/h2&gt;
+&lt;p&gt;Instead of breaking cryptography or brute-forcing passwords, attackers are going after &lt;em&gt;you&lt;/em&gt;. In a typical MFA push fatigue attack, a user is bombarded with a relentless stream of authentication requests. The goal? Wear them down until they finally hit “Approve” just to make it stop.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>CTI Analysis:CVE-2025 0411</title>
       <link>https://SpikeTheDragon40k.github.io/posts/cve-2025-0411/</link>
       <pubDate>Thu, 08 May 2025 12:51:13 +0200</pubDate>
