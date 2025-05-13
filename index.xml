@@ -6,7 +6,20 @@
     <description>Recent content on Spike Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 09 May 2025 14:04:09 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 May 2025 09:25:28 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ThreatAlert: SonicWall RCE Chain</title>
+      <link>https://SpikeTheDragon40k.github.io/posts/sonicwallzeroday/</link>
+      <pubDate>Tue, 13 May 2025 09:25:28 +0200</pubDate>
+      
+      <guid>https://SpikeTheDragon40k.github.io/posts/sonicwallzeroday/</guid>
+      
+      <description>&lt;h2 id=&#34;-sonicwall-in-the-crosshairs-zero-day-vulnerabilities-active-exploits-and-critical-patch-guidance&#34;&gt;🔒 SonicWall in the Crosshairs: Zero-Day Vulnerabilities, Active Exploits, and Critical Patch Guidance&lt;/h2&gt;
+&lt;p&gt;Over the past few months, SonicWall has been under significant fire, facing a barrage of zero-day vulnerabilities—several of which have been actively exploited in the wild. These flaws primarily affect SonicWall’s SSLVPN and Secure Mobile Access (SMA) appliances, putting enterprise environments at serious risk.&lt;/p&gt;
+&lt;p&gt;This post consolidates the most pressing vulnerabilities across SonicWall&amp;rsquo;s platforms, explains their implications, and outlines clear action steps for defenders. Whether you&amp;rsquo;re managing Gen7 firewalls or SMA 1000 devices, patching and mitigation efforts can no longer be postponed.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>LockBit Ransomware Gang Hacked</title>
       <link>https://SpikeTheDragon40k.github.io/posts/lockbitget/</link>
