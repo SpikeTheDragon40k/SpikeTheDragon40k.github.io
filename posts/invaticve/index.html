@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Posts | Spike Blog</title>
-<meta property="og:title" content="Posts | Spike Blog" />
-<meta name="twitter:title" content="Posts | Spike Blog" />
-<meta itemprop="name" content="Posts | Spike Blog" />
-<meta name="application-name" content="Posts | Spike Blog" />
+<title itemprop="name">Critical RCE in Ivanti EPMM | Spike Blog</title>
+<meta property="og:title" content="Critical RCE in Ivanti EPMM | Spike Blog" />
+<meta name="twitter:title" content="Critical RCE in Ivanti EPMM | Spike Blog" />
+<meta itemprop="name" content="Critical RCE in Ivanti EPMM | Spike Blog" />
+<meta name="application-name" content="Critical RCE in Ivanti EPMM | Spike Blog" />
 <meta property="og:site_name" content="Spike Blog" />
 
 <meta name="description" content="">
@@ -18,20 +18,12 @@
 <meta property="og:locale" content="en-gb" />
 <meta name="language" content="en-gb" />
 
-  <link rel="alternate" hreflang="en-gb" href="https://SpikeTheDragon40k.github.io/posts/" title="English" />
+  <link rel="alternate" hreflang="en-gb" href="https://SpikeTheDragon40k.github.io/posts/invaticve/" title="English" />
 
 
 
 
 
-    
-    
-    
-    
-    
-    <link rel="first" href="/posts/" />
-    <link rel="last" href="/posts/" />
-    
     
     
     
@@ -39,7 +31,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:article:published_time" content=2025-05-16T10:08:48&#43;0200 />
     <meta property="article:published_time" content=2025-05-16T10:08:48&#43;0200 />
-    <meta property="og:url" content="https://SpikeTheDragon40k.github.io/posts/" />
+    <meta property="og:url" content="https://SpikeTheDragon40k.github.io/posts/invaticve/" />
 
     
     <meta property="og:article:author" content="Adriano Inghingolo" />
@@ -54,14 +46,14 @@
     {
         "@context": "http://schema.org",
         "@type": "Article",
-        "headline": "Posts",
+        "headline": "Critical RCE in Ivanti EPMM",
         "author": {
         "@type": "Person",
         "name": ""
         },
         "datePublished": "2025-05-16",
         "description": "",
-        "wordCount":  0 ,
+        "wordCount":  384 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-05-16",
         "image": {
@@ -79,24 +71,27 @@
 <meta name="generator" content="Hugo 0.147.1">
 
     
-    <meta property="og:url" content="https://SpikeTheDragon40k.github.io/posts/">
+    <meta property="og:url" content="https://SpikeTheDragon40k.github.io/posts/invaticve/">
   <meta property="og:site_name" content="Spike Blog">
-  <meta property="og:title" content="Posts">
+  <meta property="og:title" content="Critical RCE in Ivanti EPMM">
+  <meta property="og:description" content="Two Critical Ivanti EPMM Flaws Under Active Exploitation: What You Need to Know Two critical remote code execution (RCE) vulnerabilities—CVE-2025-4427 and CVE-2025-4428—have been discovered in Ivanti Endpoint Manager Mobile (EPMM), formerly known as MobileIron Core. These flaws allow unauthenticated remote attackers to execute arbitrary commands on affected systems. Ivanti disclosed these vulnerabilities on May 14, 2025, with active exploitation in the wild reported shortly thereafter. The vulnerabilities stem from improper input validation, enabling attackers to bypass authentication and execute system-level commands. These vulnerabilities pose a severe risk to enterprises using Ivanti’s mobile device management platform.">
   <meta property="og:locale" content="en_gb">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-05-16T10:08:48+02:00">
+    <meta property="article:modified_time" content="2025-05-16T10:08:48+02:00">
 
 
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:title" content="Critical RCE in Ivanti EPMM">
+  <meta name="twitter:description" content="Two Critical Ivanti EPMM Flaws Under Active Exploitation: What You Need to Know Two critical remote code execution (RCE) vulnerabilities—CVE-2025-4427 and CVE-2025-4428—have been discovered in Ivanti Endpoint Manager Mobile (EPMM), formerly known as MobileIron Core. These flaws allow unauthenticated remote attackers to execute arbitrary commands on affected systems. Ivanti disclosed these vulnerabilities on May 14, 2025, with active exploitation in the wild reported shortly thereafter. The vulnerabilities stem from improper input validation, enabling attackers to bypass authentication and execute system-level commands. These vulnerabilities pose a severe risk to enterprises using Ivanti’s mobile device management platform.">
 
 
     
 
-    <link rel="canonical" href="https://SpikeTheDragon40k.github.io/posts/">
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Spike Blog">
-    <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="Spike Blog">
+    <link rel="canonical" href="https://SpikeTheDragon40k.github.io/posts/invaticve/">
     <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -185,176 +180,85 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Posts</h1>
-    </header>
+
+<div class="wrapper post">
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">2025</h2>
+        <article>
+            <header class="header">
+                <h1 class="header-title">Critical RCE in Ivanti EPMM</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2025-05-16T10:08:48&#43;02:00" itemprop="datePublished"> 16 May 2025 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <h1 id="two-critical-ivanti-epmm-flaws-under-active-exploitation-what-you-need-to-know">Two Critical Ivanti EPMM Flaws Under Active Exploitation: What You Need to Know</h1>
+<p>Two critical remote code execution (RCE) vulnerabilities—<strong>CVE-2025-4427</strong> and <strong>CVE-2025-4428</strong>—have been discovered in <strong>Ivanti Endpoint Manager Mobile (EPMM)</strong>, formerly known as MobileIron Core. These flaws allow unauthenticated remote attackers to execute arbitrary commands on affected systems. Ivanti disclosed these vulnerabilities on May 14, 2025, with active exploitation in the wild reported shortly thereafter. The vulnerabilities stem from improper input validation, enabling attackers to bypass authentication and execute system-level commands. These vulnerabilities pose a severe risk to enterprises using Ivanti’s mobile device management platform.</p>
+<h2 id="impacted-technologies">Impacted Technologies</h2>
+<ul>
+<li><strong>Ivanti EPMM (MobileIron Core)</strong>:
+<ul>
+<li>Version 11.10</li>
+<li>Version 11.9</li>
+<li>Version 11.8</li>
+<li>Older, end-of-life versions may also be at risk and should be upgraded immediately or decommissioned.</li>
+</ul>
+</li>
+</ul>
+<h2 id="risk-level">Risk Level</h2>
+<p><strong>Critical</strong></p>
+<p>These vulnerabilities carry a <strong>CVSS v3 score of 9.8</strong>, indicating high impact and ease of exploitation. Public exploit code is not yet available, but active exploitation in the wild has been confirmed by Ivanti and several security researchers.</p>
+<h3 id="exploit-details">Exploit Details:</h3>
+<ol>
+<li>
+<p><strong>Attack Path</strong>:<br>
+An unauthenticated remote attacker can directly send crafted requests to exposed Ivanti EPMM servers via HTTP/HTTPS. These requests exploit vulnerable API endpoints or input handling mechanisms to execute arbitrary commands.</p>
+</li>
+<li>
+<p><strong>Exploitation</strong>:</p>
+<ul>
+<li><strong>CVE-2025-4427</strong> involves a pre-authentication command injection vulnerability, allowing attackers to run OS commands as the root user.</li>
+<li><strong>CVE-2025-4428</strong> is a secondary flaw that supports the initial attack chain by bypassing input sanitization mechanisms. It can be used in tandem with CVE-2025-4427 to maximize damage or establish persistence.</li>
+</ul>
+</li>
+<li>
+<p><strong>Post-Exploitation</strong>:<br>
+After successful exploitation, attackers can:</p>
+<ul>
+<li>Establish backdoors or reverse shells</li>
+<li>Exfiltrate sensitive data and credentials</li>
+<li>Move laterally within the network</li>
+<li>Install ransomware or additional malware payloads</li>
+<li>Disable endpoint security solutions or monitoring agents</li>
+</ul>
+</li>
+</ol>
+<h3 id="mitigation">Mitigation:</h3>
+<p>Ivanti has released patches for supported versions and urges immediate updates:</p>
+<ul>
+<li><strong>Apply the latest security updates</strong> provided by Ivanti for EPMM versions 11.8 through 11.10.</li>
+<li><strong>Block external access</strong> to EPMM admin and API interfaces unless strictly required.</li>
+<li><strong>Monitor logs</strong> for unusual requests, especially to EPMM endpoints.</li>
+<li><strong>Conduct an IOC sweep</strong> using YARA rules or indicators provided by Ivanti and third-party security vendors.</li>
+<li><strong>Replace or decommission</strong> any end-of-life EPMM versions that cannot be patched.</li>
+</ul>
+<p>Organizations unable to patch immediately should restrict access to vulnerable systems and deploy compensating network controls.</p>
+<h4 id="useful-links">Useful Links</h4>
+<ul>
+<li><a href="https://projectdiscovery.io/blog/ivanti-remote-code-execution">ProjectDiscovery Technical Analysis</a></li>
+<li><a href="https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM?language=en_US">Ivanti Security Advisory</a></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-4428">NVD Entry for CVE-2025-4428</a></li>
+<li><a href="https://www.tenable.com/cve/CVE-2025-4427">Tenable CVE-2025-4427 Advisory</a></li>
+</ul>
 
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/invaticve/">Critical RCE in Ivanti EPMM</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-05-16T10:08:48&#43;0200">
-        16 May 2025
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/sonicwallzeroday/">ThreatAlert: SonicWall RCE Chain</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-05-13T09:25:28&#43;0200">
-        13 May 2025
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/lockbitget/">LockBit Ransomware Gang Hacked</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-05-09T14:04:09&#43;0200">
-        9 May 2025
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/aptvolttyphoon/">CTI Analysis: Volt Typhoon</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-05-09T11:18:41&#43;0200">
-        9 May 2025
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/realworld_lockbit/">RealWorld: LockBit Strikes</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-05-09T10:10:36&#43;0200">
-        9 May 2025
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/mfafatigue/">MFA Fatigue Attacks</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-05-09T09:00:47&#43;0200">
-        9 May 2025
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/cve-2025-0411/">CTI Analysis:CVE-2025 0411</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-05-08T12:51:13&#43;0200">
-        8 May 2025
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/oilriganalysis/">CTI Analysis: Oilrig</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-05-08T11:57:20&#43;0200">
-        8 May 2025
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/my-first-post/">Hello World!</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-05-08T10:57:20&#43;0200">
-        8 May 2025
-        
-    </time>
-</article>
-
-
-         
-
-         
-
-    </main>
-</div><footer class="footer">
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

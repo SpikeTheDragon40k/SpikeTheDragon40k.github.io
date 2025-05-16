@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Spike Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 13 May 2025 09:25:28 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 May 2025 10:08:48 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Critical RCE in Ivanti EPMM</title>
+      <link>https://SpikeTheDragon40k.github.io/posts/invaticve/</link>
+      <pubDate>Fri, 16 May 2025 10:08:48 +0200</pubDate>
+      
+      <guid>https://SpikeTheDragon40k.github.io/posts/invaticve/</guid>
+      
+      <description>&lt;h1 id=&#34;two-critical-ivanti-epmm-flaws-under-active-exploitation-what-you-need-to-know&#34;&gt;Two Critical Ivanti EPMM Flaws Under Active Exploitation: What You Need to Know&lt;/h1&gt;
+&lt;p&gt;Two critical remote code execution (RCE) vulnerabilities—&lt;strong&gt;CVE-2025-4427&lt;/strong&gt; and &lt;strong&gt;CVE-2025-4428&lt;/strong&gt;—have been discovered in &lt;strong&gt;Ivanti Endpoint Manager Mobile (EPMM)&lt;/strong&gt;, formerly known as MobileIron Core. These flaws allow unauthenticated remote attackers to execute arbitrary commands on affected systems. Ivanti disclosed these vulnerabilities on May 14, 2025, with active exploitation in the wild reported shortly thereafter. The vulnerabilities stem from improper input validation, enabling attackers to bypass authentication and execute system-level commands. These vulnerabilities pose a severe risk to enterprises using Ivanti’s mobile device management platform.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>ThreatAlert: SonicWall RCE Chain</title>
       <link>https://SpikeTheDragon40k.github.io/posts/sonicwallzeroday/</link>
