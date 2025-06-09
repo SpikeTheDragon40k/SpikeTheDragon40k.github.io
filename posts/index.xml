@@ -6,7 +6,30 @@
     <description>Recent content in Posts on Spike Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 16 May 2025 10:08:48 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jun 2025 09:09:01 +0200</lastBuildDate><atom:link href="https://SpikeTheDragon40k.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diamond League 1st Place on TryHackMe!</title>
+      <link>https://SpikeTheDragon40k.github.io/posts/diamond1st/</link>
+      <pubDate>Mon, 09 Jun 2025 09:09:01 +0200</pubDate>
+      
+      <guid>https://SpikeTheDragon40k.github.io/posts/diamond1st/</guid>
+      
+      <description>&lt;h2 id=&#34;guardandomi-indietro-ogni-minuto-speso-è-valso-davvero-la-pena&#34;&gt;Dopo tanto impegno e tante sfide affrontate, sono riuscito a raggiungere il 1° posto nella Diamond League su TryHackMe! 🏆💎
+È stato un percorso lungo e pieno di ostacoli: ore e ore passate tra macchine da risolvere, notti a studiare, momenti difficili ma anche tante piccole soddisfazioni lungo la strada.
+Un grazie sincero a TryHackMe per aver creato una piattaforma che rende davvero la cybersecurity concreta, stimolante e alla portata di tutti.
+Durante questo cammino ho avuto anche il piacere di conquistare diverse vittorie nelle modalità King of the Hill e CTF, che mi hanno spinto ogni volta a mettermi in gioco sempre di più.
+🔥 Questo risultato non è solo l&amp;rsquo;inizio di qualcosa di nuovo, ma anche il punto d’arrivo di tanti sforzi che oggi sento ripagati.
+Guardandomi indietro, ogni minuto speso è valso davvero la pena.&lt;/h2&gt;
+&lt;p&gt;I’m really happy to share that I’ve reached 1st place in the Diamond League on TryHackMe! 🏆💎
+It’s been a long road, full of challenges — late nights, tons of learning, solving tricky boxes, and pushing through tough moments.
+A big thank you to TryHackMe for building such a great platform that makes learning cybersecurity not only hands-on and practical, but actually fun and accessible.
+Along the way, I’ve also had the chance to win several King of the Hill and CTF competitions, each one pushing me to go a little further and improve.
+🔥 This isn’t just the start of something new — it also feels like a well-earned achievement after a lot of hard work.
+Looking back, every minute spent was totally worth it
+&lt;img src=&#34;https://SpikeTheDragon40k.github.io/images/Diamon1.png&#34; alt=&#34;Diamon1st&#34;&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Critical RCE in Ivanti EPMM</title>
       <link>https://SpikeTheDragon40k.github.io/posts/invaticve/</link>
