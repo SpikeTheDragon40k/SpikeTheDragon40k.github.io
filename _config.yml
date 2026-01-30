@@ -77,7 +77,14 @@ content:
           TLDR Pages is cybersecurity documentation gold—60k+ stars prove it's the CLI reference everyone needs.
         description: | # this will include new lines to allow paragraphs
          As Organization Manager for TLDR Pages (60,000+ GitHub stars), I manage repo access, review contributions, and maintain simplified command-line docs for tools used in Linux, Windows and other OSes . If you need concise CLI mastery, TLDR Pages (with my contributions) delivers.
-
+      - layout: top-middle
+        title: Cyber Fortress - A Cybersecurity Manual for SMBs
+        link: github.com/SpikeTheDragon40k/Cyber-Fortress-A-Cybersecurity-Manual-for-SMBs
+        quote: >
+          Cyber Fortress equips SMBs with practical cybersecurity defenses—your manual for threat-proofing small businesses.
+        description: | # this will include new lines to allow paragraphs
+          Cyber Fortress is my comprehensive open-source manual tailored for SMBs, delivering actionable guides on EDR deployment, threat hunting basics, endpoint hardening, and cost-effective defenses against real-world attacks.
+          Drawing from enterprise experience (CrowdStrike, Sophos, Tenable), it demystifies SecOps for non-experts while providing checklists and configs for immediate implementation. Essential reading for Italian SMBs building robust security postures.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
