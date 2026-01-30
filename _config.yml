@@ -85,6 +85,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Cyber Fortress is my comprehensive open-source manual tailored for SMBs, delivering actionable guides on EDR deployment, threat hunting basics, endpoint hardening, and cost-effective defenses against real-world attacks.
           Drawing from enterprise experience (CrowdStrike, Sophos, Tenable), it demystifies SecOps for non-experts while providing checklists and configs for immediate implementation. Essential reading for Italian SMBs building robust security postures.
+  
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
