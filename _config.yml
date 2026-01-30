@@ -62,12 +62,21 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: sshman
+        link: github.com/SpikeTheDragon40k/sshman
+        quote: >
+          sshman revolutionizes secure SSH management—encrypted vaults make key handling effortless for homelabs and enterprises.
+        description: | # this will include new lines to allow paragraphs
+          sshman is my open-source CLI tool for managing SSH keys and connections with encrypted .vssh vaults, key generation, and direct SSH support—perfect for threat hunters juggling multiple endpoints.
+          Born from real-world SecOps needs, it streamlines secure access in homelabs (Raspberry Pi clusters) and production (CrowdStrike/Sophos fleets). 
+          With 5 releases and growing stars, it's a portfolio highlight showcasing my bash scripting and crypto skills.
+      - layout: top-middle
         title: TLDR Pages
         link: github.com/tldr-pages/tldr
         quote: >
           TLDR Pages is cybersecurity documentation gold—60k+ stars prove it's the CLI reference everyone needs.
         description: | # this will include new lines to allow paragraphs
-         As Organization Manager for TLDR Pages (60,000+ GitHub stars), I manage repo access, review contributions, and maintain simplified command-line docs for tools like CrowdStrike, Sophos, and Docker security. This massive open-source project showcases my security documentation skills and governance experience—perfect proof for SecOps roles. If you need concise CLI mastery, TLDR Pages (with my contributions) delivers.
+         As Organization Manager for TLDR Pages (60,000+ GitHub stars), I manage repo access, review contributions, and maintain simplified command-line docs for tools used in Linux, Windows and other OSes . If you need concise CLI mastery, TLDR Pages (with my contributions) delivers.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
