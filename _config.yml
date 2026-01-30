@@ -157,7 +157,7 @@ content:
           Provided remote support for Bosch EsiTronic diagnostics, deployed corporate EDR, and trained technicians on management tools.
           Coordinated interventions, optimized workshop IT, bridging DevOps and security in automotive sector.
 
-    - layout: left
+      - layout: left
         title: Alphaink SRL
         link: https://www.alphaink.it/
         sub_title: IT/DevOps Team Lead
