@@ -183,20 +183,24 @@ content:
           that directly propelled progression to IT/DevOps roles and advanced SecOps specialization.
 
       - layout: left
-        title: Key Certifications (2022-2026)
-        caption: 20+ Active Certs | TOP 1% TryHackMe (Rank 2,537)
-        sub_title: EDR/XDR, Vulnerability Mgmt, Threat Hunting
+        title: Core Certifications (2021-2026)
+        caption: 25+ Active | TOP 1% TryHackMe (Rank 2,537/3M)
+        sub_title: EDR/XDR, VMDR, Threat Hunting Mastery
         quote: >
-          Hands-on validated expertise: CrowdStrike Falcon, Qualys VMDR, SentinelOne, Trend Vision One, Wazuh SIEM.
+          Production-proven: Qualys VMDR suite, CrowdStrike Falcon Shield, Trend Vision One, SentinelOne full-stack.
         description: | 
-          - **CrowdStrike**: Falcon Shield Fundamentals & SaaS Security (2025)
-          - **Qualys VMDR**: Vulnerability Mgmt Detection Response, Sensors Foundation (2025, expires 2027)
-          - **SentinelOne**: Foundations, IR, Threat Hunting, Ranger, Policy Admin (2022)
-          - **Trend Micro**: Vision One Endpoint Security Advanced, TrendAI (2025)
-          - **TryHackMe**: SOC L2 (2026), SOC L1 (2025), CompTIA Pentest, Intro CyberSec, Pre-Security (2021-2022)
-          - **Other**: Recorded Future Intelligence (2024), Wazuh SIEM Production Deployments
+          **2025-2026 (Recent):**
+          - TryHackMe SOC Level 2 (Jan 2026, ID: THM-KG1ZZZUBPB)
+          - Qualys: CSAM, Cloud Agent (Aug 2025, exp 2027); VM Foundation, VMDR Onboarding, TruRisk Platform, Sensors (Aug 2025)
+          - Trend Vision One: Endpoint Security Advanced/TrendAI (Jul 2025, exp 2027)
+          - CrowdStrike: Falcon Shield Fundamentals (CLOUD 150), SaaS Security Impl (CLOUD 151) (Jun 2025)
           
-          TOP 1% global ranking (345 rooms, 61 badges) proves practical mastery over theory.
+          **2024-2022 (Foundational):**
+          - TryHackMe SOC Level 1 (May 2025, ID: THM-ODP569DEUK)
+          - Recorded Future Intelligence Fundamentals (Nov 2024)
+          - Trend Vision One Admin Technical Track (Aug 2024)
+          - SentinelOne: Foundations, IR, Ranger, Threat Hunting, Policy Admin, Remote Orchestration (2022)
+          - TryHackMe: CompTIA Pentest+, Intro CyberSec, Web Fundamentals, Jr Pentester, Advent of Cyber 2021, Pre-Security (2021-2022)
 
   - title: A Little More About Me
     layout: text
