@@ -187,11 +187,11 @@ content:
     content: | # this will include new lines to allow paragraphs
 
       Alongside my interests in Cybersecurity and software engineering some of my other interests and hobbies are:
-       . 3D printing custom gadgets and enclosures
-       . Raspberry Pi homelabs and automation projects
-       . Retrogaming with DOSBox, emulators, and vintage hardware
-       . Tinkering with devices—breaking, fixing, and optimizing systems
-       . Outdoor activities (hiking)
+       - 3D printing custom gadgets and enclosures
+       - Raspberry Pi homelabs and automation projects
+       - Retrogaming with DOSBox, emulators, and vintage hardware
+       - Tinkering with devices—breaking, fixing, and optimizing systems
+       - Outdoor activities (hiking)
 
 # Footer
 footer_show_references: true
