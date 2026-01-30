@@ -14,17 +14,17 @@ website: www.github.com/SpikeTheDragon40k
 darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  SpikeTheDragon40k
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: adriano-inghingolo
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -32,7 +32,13 @@ youtube_username: globalmtb
 additional_links:
 - title: itsgoingto.be
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://spikethedragon40k.github.io/
+- title: Mastodon
+  icon: fab fa-mastodon
+  url: https://mastodon.social/@spikethedragon
+- title: TryHackMe
+  icon: fas fa-shield-alt
+  url: https://tryhackme.com/p/spikethedragon
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -102,14 +108,8 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in Cybersecurity and software engineering some of my other interests and hobbies are:
 
-      Look at this cool image  
-      ![Penguins](/images/penguin.jpg "Penguin")
 
 # Footer
 footer_show_references: true
