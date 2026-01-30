@@ -89,84 +89,83 @@ content:
     layout: list # Type of content section (list/text)
     content:
     
-  - layout: left
-    title: HWG Sababa
-    link: https://www.hwgsababa.com/
-    sub_title: Solution Leader - EDR, NDR & OT Security
-    caption: May 2025 - January 2026 (9 months)
-    quote: >
-      Pioneering integrated EDR/NDR/OT security strategy—unifying endpoint, network, and industrial defenses enterprise-wide.
-    description: |
-      Lead next-generation security platform convergence, architecting EDR/NDR solutions with OT-specific protections for critical infrastructure.
-      Drive cross-domain threat detection across endpoints, networks, and industrial control systems while managing deployment at scale.
-      Establish unified detection engineering frameworks and lead Purple Team exercises targeting converged attack surfaces.
+      - layout: left
+        title: HWG Sababa
+        link: https://www.hwgsababa.com/
+        sub_title: Solution Leader - EDR, NDR & OT Security
+        caption: May 2025 - January 2026 (9 months)
+        quote: >
+          Pioneering integrated EDR/NDR/OT security strategy—unifying endpoint, network, and industrial defenses enterprise-wide.
+        description: |
+         Lead next-generation security platform convergence, architecting EDR/NDR solutions with OT-specific protections for critical infrastructure.
+         Drive cross-domain threat detection across endpoints, networks, and industrial control systems while managing deployment at scale.
+         Establish unified detection engineering frameworks and lead Purple Team exercises targeting converged attack surfaces.
 
-  - layout: left
-    title: HWG Sababa
-    link: https://www.hwgsababa.com/
-    sub_title: Senior Cybersecurity Analyst
-    caption: May 2025 - January 2026 (9 months)
-    quote: >
-      Leading threat intelligence, EDR/XDR operations, and proactive threat hunting across enterprise client environments.
-    description: |
-      Lead security operations for high-profile enterprise customers, architecting EDR/XDR solutions and driving incident response.
-      Manage cross-functional teams of Tier 1/2 analysts, optimize detection rules, and elevate security posture through advanced threat hunting.
-      Direct collaboration with SOC, Purple Team, and CISO—delivering strategic guidance on vulnerability management and cloud security.
+      - layout: left
+        title: HWG Sababa
+        link: https://www.hwgsababa.com/
+        sub_title: Senior Cybersecurity Analyst
+        caption: May 2025 - January 2026 (9 months)
+        quote: >
+          Leading threat intelligence, EDR/XDR operations, and proactive threat hunting across enterprise client environments.
+        description: |
+          Lead security operations for high-profile enterprise customers, architecting EDR/XDR solutions and driving incident response.
+          Manage cross-functional teams of Tier 1/2 analysts, optimize detection rules, and elevate security posture through advanced threat hunting.
+          Direct collaboration with SOC, Purple Team, and CISO—delivering strategic guidance on vulnerability management and cloud security.
 
-  - layout: left
-    title: BIP
-    link: https://www.bip.com/
-    sub_title: Senior Security Analyst
-    caption: November 2024 - May 2025 (7 months)
-    quote: >
-      Delivered enterprise security consulting—assessments, vulnerability analysis, and control implementation for diverse clients.
-    description: |
-      Conducted risk management, security assessments, and incident response collaboration across client environments.
-      Implemented monitoring solutions and enhanced client SecOps maturity in full-remote consulting capacity.
+      - layout: left
+        title: BIP
+        link: https://www.bip.com/
+        sub_title: Senior Security Analyst
+        caption: November 2024 - May 2025 (7 months)
+        quote: >
+          Delivered enterprise security consulting—assessments, vulnerability analysis, and control implementation for diverse clients.
+        description: |
+          Conducted risk management, security assessments, and incident response collaboration across client environments.
+          Implemented monitoring solutions and enhanced client SecOps maturity in full-remote consulting capacity.
 
-  - layout: left
-    title: HWG Sababa
-    link: https://www.hwgsababa.com/
-    sub_title: Solution Leader - EDR, Awareness & Vulnerability Management
-    caption: January 2024 - November 2024 (11 months)
-    quote: >
-      Owned company-wide EDR/Vulnerability/Security Awareness strategy, managing deployments for hundreds of endpoints.
-    description: |
-      Led security platforms roadmap as Solution Leader, establishing SLAs, risk prioritization, and remediation frameworks from scratch.
-      Directed Tier 1/2 analyst teams, supported Purple Team exercises, and built awareness programs to foster security culture.
+      - layout: left
+        title: HWG Sababa
+        link: https://www.hwgsababa.com/
+        sub_title: Solution Leader - EDR, Awareness & Vulnerability Management
+        caption: January 2024 - November 2024 (11 months)
+        quote: >
+          Owned company-wide EDR/Vulnerability/Security Awareness strategy, managing deployments for hundreds of endpoints.
+        description: |
+          Led security platforms roadmap as Solution Leader, establishing SLAs, risk prioritization, and remediation frameworks from scratch.
+          Directed Tier 1/2 analyst teams, supported Purple Team exercises, and built awareness programs to foster security culture.
 
-  - layout: left
-    title: HWG Sababa
-    link: https://www.hwgsababa.com/
-    sub_title: Solution Leader - EDR, Awareness & Vulnerability Management
-    caption: September 2022 - January 2024 (1 year 4 months)
-    quote: >
-      Owned company-wide EDR/Vulnerability/Security Awareness strategy, managing deployments for hundreds of endpoints.
-    description: |
-      Led security platforms roadmap as Solution Leader, establishing SLAs, risk prioritization, and remediation frameworks from scratch.
-      Directed Tier 1/2 analyst teams, supported Purple Team exercises, and built awareness programs to foster security culture.
+      - layout: left
+        title: HWG Sababa
+        link: https://www.hwgsababa.com/
+        sub_title: Solution Leader - EDR, Awareness & Vulnerability Management
+        caption: September 2022 - January 2024 (1 year 4 months)
+        quote: >
+          Owned company-wide EDR/Vulnerability/Security Awareness strategy, managing deployments for hundreds of endpoints.
+        description: |
+          Led security platforms roadmap as Solution Leader, establishing SLAs, risk prioritization, and remediation frameworks from scratch.
+          Directed Tier 1/2 analyst teams, supported Purple Team exercises, and built awareness programs to foster security culture.
 
-  - layout: left
-    title: Cartronic Group SRL
-    link: https://www.cartronicgroup.com/
-    sub_title: IT/DevOps Specialist & IT Trainer
-    caption: April 2019 - September 2022 (3 years 6 months)
-    quote: >
-      Managed IT infrastructure, EDR deployments, and technical training for automotive diagnostic systems nationwide.
-    description: |
-      Provided remote support for Bosch EsiTronic diagnostics, deployed corporate EDR, and trained technicians on management tools.
-      Coordinated interventions, optimized workshop IT, bridging DevOps and security in automotive sector.
+      - layout: left
+        title: Cartronic Group SRL
+        sub_title: IT/DevOps Specialist & IT Trainer
+        caption: April 2019 - September 2022 (3 years 6 months)
+        quote: >
+          Managed IT infrastructure, EDR deployments, and technical training for automotive diagnostic systems nationwide.
+        description: |
+          Provided remote support for Bosch EsiTronic diagnostics, deployed corporate EDR, and trained technicians on management tools.
+          Coordinated interventions, optimized workshop IT, bridging DevOps and security in automotive sector.
 
-  - layout: left
-    title: Alphaink SRL
-    link: https://www.alphaink.it/
-    sub_title: IT/DevOps Team Lead
-    caption: August 2014 - August 2018 (4 years 1 month)
-    quote: >
-      Led IT/DevOps team of 4, implementing vulnerability management and infrastructure for eCommerce/logistics operations.
-    description: |
-      Oversaw customer service, QA, security controls, and container logistics IT—enhancing operational security and efficiency.
-      Coordinated technical/business teams, laying foundation for cybersecurity career progression.
+    - layout: left
+        title: Alphaink SRL
+        link: https://www.alphaink.it/
+        sub_title: IT/DevOps Team Lead
+        caption: August 2014 - August 2018 (4 years 1 month)
+        quote: >
+          Led IT/DevOps team of 4, implementing vulnerability management and infrastructure for eCommerce/logistics operations.
+        description: |
+          Oversaw customer service, QA, security controls, and container logistics IT—enhancing operational security and efficiency.
+          Coordinated technical/business teams, laying foundation for cybersecurity career progression.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
