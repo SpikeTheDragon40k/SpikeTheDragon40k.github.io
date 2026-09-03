@@ -172,17 +172,6 @@ content:
     layout: list
     content:
       - layout: left
-        title: Liceo Scientifico B. Pascal
-        caption: 2006 - 2012
-        sub_title: High School Diploma - Computer Science Focus
-        quote: >
-          Specialized high school curriculum emphasizing applied sciences, programming, and IT fundamentals—foundation for cybersecurity career.
-        description: | 
-          Graduated with strong focus on computer science (Grade 65/100), gaining early expertise in algorithms, systems administration, 
-          and technical problem-solving. Built foundational skills in Linux/Windows environments, scripting, and hardware tinkering 
-          that directly propelled progression to IT/DevOps roles and advanced SecOps specialization.
-
-      - layout: left
         title: Core Certifications (2021-2026)
         caption: 25+ Active | TOP 1% TryHackMe (Rank 2,537/3M)
         sub_title: EDR/XDR, VMDR, Threat Hunting Mastery
@@ -190,6 +179,7 @@ content:
           Production-proven: Qualys VMDR suite, CrowdStrike Falcon Shield, Trend Vision One, SentinelOne full-stack.
         description: | 
           **2025-2026 (Recent):**
+          - CrowdStrike Certified Falcon Administrator (CCFA) 
           - TryHackMe SOC Level 2 (Jan 2026, ID: THM-KG1ZZZUBPB)
           - Qualys: CSAM, Cloud Agent (Aug 2025, exp 2027); VM Foundation, VMDR Onboarding, TruRisk Platform, Sensors (Aug 2025)
           - Trend Vision One: Endpoint Security Advanced/TrendAI (Jul 2025, exp 2027)
