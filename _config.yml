@@ -93,60 +93,31 @@ content:
       - layout: left
         title: HWG Sababa
         link: https://www.hwgsababa.com/
-        sub_title: Solution Leader - EDR, NDR & OT Security
-        caption: May 2025 - January 2026 (9 months)
-        quote: >
-          Pioneering integrated EDR/NDR/OT security strategy—unifying endpoint, network, and industrial defenses enterprise-wide.
+        sub_title: Cybersecurity Team Leader
+        caption: May 2025 - Present
         description: |
-         Lead next-generation security platform convergence, architecting EDR/NDR solutions with OT-specific protections for critical infrastructure.
-         Drive cross-domain threat detection across endpoints, networks, and industrial control systems while managing deployment at scale.
-         Establish unified detection engineering frameworks and lead Purple Team exercises targeting converged attack surfaces.
+          Lead a team of Tier 1/2 analysts delivering EDR/XDR operations, threat hunting and incident response for enterprise clients.
+          Architect converged EDR/NDR solutions with OT-specific protections for critical infrastructure, and own detection engineering and rule tuning.
+          Work directly with SOC, Purple Team and client CISOs on vulnerability management and cloud security strategy.
 
       - layout: left
-        title: HWG Sababa
-        link: https://www.hwgsababa.com/
-        sub_title: Senior Cybersecurity Analyst
-        caption: May 2025 - January 2026 (9 months)
-        quote: >
-          Leading threat intelligence, EDR/XDR operations, and proactive threat hunting across enterprise client environments.
-        description: |
-          Lead security operations for high-profile enterprise customers, architecting EDR/XDR solutions and driving incident response.
-          Manage cross-functional teams of Tier 1/2 analysts, optimize detection rules, and elevate security posture through advanced threat hunting.
-          Direct collaboration with SOC, Purple Team, and CISO—delivering strategic guidance on vulnerability management and cloud security.
-
-      - layout: left
-        title: BIP
+        title: BIP Group
         link: https://www.bip-group.it/
-        sub_title: Senior Security Analyst
+        sub_title: Senior Security Analyst (L3)
         caption: November 2024 - May 2025 (7 months)
-        quote: >
-          Delivered enterprise security consulting—assessments, vulnerability analysis, and control implementation for diverse clients.
         description: |
-          Conducted risk management, security assessments, and incident response collaboration across client environments.
-          Implemented monitoring solutions and enhanced client SecOps maturity in full-remote consulting capacity.
+          Conducted risk management, security assessments and incident response across client environments.
+          Implemented monitoring solutions and improved client SecOps maturity in a fully remote consulting role.
 
       - layout: left
         title: HWG Sababa
         link: https://www.hwgsababa.com/
         sub_title: Solution Leader - EDR, Awareness & Vulnerability Management
-        caption: January 2024 - November 2024 (11 months)
-        quote: >
-          Owned company-wide EDR/Vulnerability/Security Awareness strategy, managing deployments for hundreds of endpoints.
+        caption: September 2022 - November 2024 (2 years 3 months)
         description: |
-          Led security platforms roadmap as Solution Leader, establishing SLAs, risk prioritization, and remediation frameworks from scratch.
-          Directed Tier 1/2 analyst teams, supported Purple Team exercises, and built awareness programs to foster security culture.
-
-      - layout: left
-        title: HWG Sababa
-        link: https://www.hwgsababa.com/
-        sub_title: Solution Leader - EDR, Awareness & Vulnerability Management
-        caption: September 2022 - January 2024 (1 year 4 months)
-        quote: >
-          Owned company-wide EDR/Vulnerability/Security Awareness strategy, managing deployments for hundreds of endpoints.
-        description: |
-          Led security platforms roadmap as Solution Leader, establishing SLAs, risk prioritization, and remediation frameworks from scratch.
-          Directed Tier 1/2 analyst teams, supported Purple Team exercises, and built awareness programs to foster security culture.
-
+          Owned the company-wide EDR, vulnerability management and security awareness offering, built the SLAs, risk prioritization and remediation frameworks from scratch.
+          Managed deployments across hundreds of endpoints, directed Tier 1/2 analysts, supported Purple Team exercises and ran awareness programs.
+          
       - layout: left
         title: Cartronic Group SRL
         sub_title: IT/DevOps Specialist & IT Trainer
