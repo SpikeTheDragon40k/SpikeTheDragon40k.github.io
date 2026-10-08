@@ -107,8 +107,11 @@ content:
         sub_title: Senior Security Analyst (L3)
         caption: November 2024 - May 2025 (7 months)
         description: |
-          Conducted risk management, security assessments and incident response across client environments.
-          Implemented monitoring solutions and improved client SecOps maturity in a fully remote consulting role.
+          Provided operational and technical leadership across security operations initiatives, shaping and continuously improving the SecOps function.
+          Designed, deployed and operated security platforms and tooling to strengthen detection, monitoring, response and remediation capabilities.
+          Monitored client environments, investigated incidents, coordinated response and drove remediation of endpoint compromises; assessed existing controls and implemented improvements.
+          Automated security processes in Python, Go and Bash, applying software engineering and SRE principles to improve the scalability and reliability of security tooling.
+          Mentored team members and delivered security initiatives within an agile engineering framework, collaborating across engineering and security teams.
 
       - layout: left
         title: HWG Sababa
@@ -116,8 +119,11 @@ content:
         sub_title: Solution Leader - EDR, Awareness & Vulnerability Management
         caption: September 2022 - November 2024 (2 years 3 months)
         description: |
-          Owned the company-wide EDR, vulnerability management and security awareness offering, built the SLAs, risk prioritization and remediation frameworks from scratch.
-          Managed deployments across hundreds of endpoints, directed Tier 1/2 analysts, supported Purple Team exercises and ran awareness programs.
+          Owned the company-wide EDR, vulnerability management and security awareness service lines, defining the roadmap, service catalogue and delivery model for enterprise clients.
+          Built the operational frameworks from scratch, including SLAs, risk-based vulnerability prioritization, remediation workflows and escalation procedures.
+          Led EDR deployments and onboarding across hundreds of client endpoints on platforms including SentinelOne and Trend Vision One, covering policy design, tuning and ongoing service health.
+          Directed Tier 1/2 analysts in triage, investigation and remediation, acting as technical escalation point and reviewing detection quality.
+          Supported Purple Team exercises to validate detection coverage, and designed and ran security awareness programs to strengthen client security culture.
           
       - layout: left
         title: Cartronic Group SRL
