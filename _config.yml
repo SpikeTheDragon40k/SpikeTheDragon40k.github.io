@@ -53,7 +53,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profilespike.jpg
 about_content: | # this will include new lines to allow paragraphs
-     Hi, I'm Adriano, a cybersecurity professional based in Verona, Italy. I currently lead a managed detection and response team at HWG Sababa, owning the deployment and operation of EDR, NDR and OT security platforms for enterprise clients. My background spans more than a decade in IT and DevOps before moving into security operations, which shapes how I work: I care as much about how a platform is deployed, integrated and kept healthy as about what it detects.
+    Hi, I'm Adriano, a cybersecurity professional based in Verona, Italy. I currently lead a managed detection and response team at HWG Sababa, owning the deployment and operation of EDR, NDR and OT security platforms for enterprise clients. My background spans more than a decade in IT and DevOps before moving into security operations, which shapes how I work: I care as much about how a platform is deployed, integrated and kept healthy as about what it detects.
 
     Outside of client work I run a Raspberry Pi homelab, sharpen my skills on TryHackMe and Hack The Box, automate security tasks in Python, Go and Bash, and help maintain TLDR Pages as an Organization Manager.
 
