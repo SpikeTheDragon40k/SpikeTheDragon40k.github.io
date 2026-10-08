@@ -53,9 +53,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profilespike.jpg
 about_content: | # this will include new lines to allow paragraphs
-    Hi, I'm Adriano a passionate cybersecurity professional based in Verona, Italy, specializing in EDR/XDR platforms and threat hunting. With hands-on experience securing enterprise environments using tools like CrowdStrike Falcon, Sentinel One EDR, and Qualys, I've deployed defenses, led incident response, and hunted threats across complex infrastructures. By night, I tinker with Raspberry Pi home labs, tackle challenges on TryHackMe and Hack The Box, and contribute to open-source projects like TLDR Pages.
+     Hi, I'm Adriano, a cybersecurity professional based in Verona, Italy. I currently lead a managed detection and response team at HWG Sababa, owning the deployment and operation of EDR, NDR and OT security platforms for enterprise clients. My background spans more than a decade in IT and DevOps before moving into security operations, which shapes how I work: I care as much about how a platform is deployed, integrated and kept healthy as about what it detects.
 
-    I am most skilled in: <mark>CrowdStrike Falcon</mark> and <mark>Threat Hunting</mark> but also have experience with: <mark>Sentinel One EDR</mark>, <mark>Qualys Vulnerability Management</mark>, <mark>SIEM Solutions</mark> and <mark>Incident Response</mark>.
+    Outside of client work I run a Raspberry Pi homelab, sharpen my skills on TryHackMe and Hack The Box, automate security tasks in Python, Go and Bash, and help maintain TLDR Pages as an Organization Manager.
+
+    Core expertise: <mark>CrowdStrike Falcon</mark>, <mark>EDR/XDR</mark> and <mark>Threat Hunting</mark>. Also experienced with: <mark>NDR</mark>, <mark>OT Security</mark>, <mark>SentinelOne</mark>, <mark>Trend Vision One</mark>, <mark>Qualys VMDR</mark>, <mark>Incident Response</mark> and <mark>MITRE ATT&CK</mark>.
 
 content:
   - title: Projects # Title for the section
