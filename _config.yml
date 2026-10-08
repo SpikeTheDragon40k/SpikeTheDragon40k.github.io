@@ -96,9 +96,10 @@ content:
         sub_title: Cybersecurity Team Leader
         caption: May 2025 - Present
         description: |
-          Lead a team of Tier 1/2 analysts delivering EDR/XDR operations, threat hunting and incident response for enterprise clients.
-          Architect converged EDR/NDR solutions with OT-specific protections for critical infrastructure, and own detection engineering and rule tuning.
-          Work directly with SOC, Purple Team and client CISOs on vulnerability management and cloud security strategy.
+          Lead a team of security professionals delivering managed detection and response services across EDR, OT security and NDR for enterprise clients.
+          Own the operational side of the MSS platform portfolio: deployment, configuration and ongoing management of EDR, OT-centric security and network detection platforms.
+          Oversee integration into customer environments to ensure consistent coverage, complete data collection and alignment with detection and response requirements.
+          Manage service health and coordinate between the team, internal stakeholders and customers to keep the service resilient and scalable.
 
       - layout: left
         title: BIP Group
