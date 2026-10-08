@@ -174,7 +174,6 @@ content:
   - title: A Little More About Me
     layout: text
     content: |
-
       Outside of cybersecurity and software engineering, I like building, fixing and understanding how things work:
        - **3D design and printing:** modeling and printing functional parts, tools and enclosures for everyday problems
        - **Homelab:** running Raspberry Pi clusters for self-hosting, automation and testing security tooling
