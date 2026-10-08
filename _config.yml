@@ -173,14 +173,14 @@ content:
           
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
 
-      Alongside my interests in Cybersecurity and software engineering some of my other interests and hobbies are:
-       - 3D printing custom gadgets and enclosures
-       - Raspberry Pi homelabs and automation projects
-       - Retrogaming with DOSBox, emulators, and vintage hardware
-       - Tinkering with devices—breaking, fixing, and optimizing systems
-       - Outdoor activities (hiking)
+      Outside of cybersecurity and software engineering, I like building, fixing and understanding how things work:
+       - **3D design and printing:** modeling and printing functional parts, tools and enclosures for everyday problems
+       - **Homelab:** running Raspberry Pi clusters for self-hosting, automation and testing security tooling
+       - **Retrogaming and console restoration:** collecting, repairing and modding consoles across generations, from recapping and repairs to hardware mods
+       - **Hardware tinkering:** taking devices apart, fixing them and making them perform better than they did out of the box
+       - **Hiking:** time in the mountains to switch off from screens
 
 # Footer
 footer_show_references: true
