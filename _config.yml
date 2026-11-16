@@ -106,56 +106,6 @@ content:
               </div>
             </div>
           </div>
-      - layout: top-middle
-        title: vsdemake
-        description: | # this will include new lines to allow paragraphs
-          <div class="tool-card tool-card--vsdemake">
-            <img class="tool-card__logo" src="https://spikethedragon40k.github.io/vsdemake/favicon.png" alt="vsdemake icon" width="48" height="48">
-            <div class="tool-card__body">
-              <span class="tool-card__name">vsdemake</span>
-              <span class="tool-card__tagline">Unofficial Vampire Survivors demake for Xbox 360 homebrew.</span>
-              <p class="tool-card__desc">An unofficial Xbox 360 homebrew demake of Vampire Survivors 0.2.10. A C99 engine runs as <code>default.xex</code> (built with the Xbox 360 XDK); a local Node.js patcher builds the game data pack from your own Steam copy. The project ships no game code or assets. Status: 1.0.0 release candidate.</p>
-              <ul class="tool-card__tags"><li>C99</li><li>Node.js</li><li>Xbox 360 homebrew</li><li>Game</li></ul>
-              <div class="tool-card__links">
-                <a href="https://spikethedragon40k.github.io/vsdemake/">website</a>
-                <a href="https://github.com/SpikeTheDragon40k/vsdemake">source</a>
-              </div>
-            </div>
-          </div>
-      - layout: top-middle
-        title: ISO2GOD2XBOX Suite
-        description: | # this will include new lines to allow paragraphs
-          <div class="tool-card tool-card--iso2god">
-            <img class="tool-card__logo" src="https://spikethedragon40k.github.io/xbox360_ISO2GOD2XBOX_Suite/logo.png" alt="ISO2GOD2XBOX Suite logo" width="48" height="48">
-            <div class="tool-card__body">
-              <span class="tool-card__name">ISO2GOD2XBOX Suite</span>
-              <span class="tool-card__tagline">Convert Xbox 360 ISOs to GOD and upload them over FTP.</span>
-              <p class="tool-card__desc">Bash tools for Linux to batch-convert Xbox 360 ISOs to Games on Demand (GOD) with iso2god-rs and upload them to Aurora/FSD over FTP, with a live progress bar, safe ISO cleanup, .env config and an optional TUI.</p>
-              <ul class="tool-card__tags"><li>Bash</li><li>CLI</li><li>Xbox 360</li><li>Linux</li></ul>
-              <div class="tool-card__links">
-                <a href="https://spikethedragon40k.github.io/xbox360_ISO2GOD2XBOX_Suite/">website</a>
-                <a href="https://github.com/SpikeTheDragon40k/xbox360_ISO2GOD2XBOX_Suite">source</a>
-              </div>
-            </div>
-          </div>
-
-      - layout: top-middle
-        title: Orbit Rush
-        description: | # this will include new lines to allow paragraphs
-          <div class="tool-card tool-card--orbit">
-            <img class="tool-card__logo" src="https://spikethedragon40k.github.io/pico-orbit/logo.png" alt="Orbit Rush — PICO-8 Edition logo" width="48" height="48">
-            <div class="tool-card__body">
-              <span class="tool-card__name">Orbit Rush <small class="tool-card__badge">PICO-8</small></span>
-              <span class="tool-card__tagline">Guard your goal. Curve, dash, grab — last pilot standing wins.</span>
-              <p class="tool-card__desc">A standalone single-player PICO-8 demake of <a href="https://github.com/SpikeTheDragon40k/orbit-rush">Orbit Rush</a>. Defend the bottom goal against 1–3 predictive CPUs across four arenas and four difficulties, with DASH, GRAB/THROW, spin, pickups and up to five balls. Version 0.1.0 (release candidate).</p>
-              <ul class="tool-card__tags"><li>PICO-8</li><li>Lua</li><li>Game</li><li>Demake</li></ul>
-              <div class="tool-card__links">
-                <a href="https://www.lexaloffle.com/bbs/?pid=199244#p">play</a>
-                <a href="https://spikethedragon40k.github.io/pico-orbit/">website</a>
-                <a href="https://github.com/SpikeTheDragon40k/pico-orbit">source</a>
-              </div>
-            </div>
-          </div>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -242,6 +192,60 @@ content:
           - SentinelOne: Foundations, IR, Ranger, Threat Hunting, Policy Admin, Remote Orchestration (2022)
           - TryHackMe: CompTIA Pentest+, Intro CyberSec, Web Fundamentals, Jr Pentester, Advent of Cyber 2021, Pre-Security (2021-2022)
           
+  - title: Sidequests # Side projects outside cybersecurity
+    layout: list
+    content:
+      - layout: top-middle
+        title: vsdemake
+        description: | # this will include new lines to allow paragraphs
+          <div class="tool-card tool-card--vsdemake">
+            <img class="tool-card__logo" src="https://spikethedragon40k.github.io/vsdemake/favicon.png" alt="vsdemake icon" width="48" height="48">
+            <div class="tool-card__body">
+              <span class="tool-card__name">vsdemake</span>
+              <span class="tool-card__tagline">Unofficial Vampire Survivors demake for Xbox 360 homebrew.</span>
+              <p class="tool-card__desc">An unofficial Xbox 360 homebrew demake of Vampire Survivors 0.2.10. A C99 engine runs as <code>default.xex</code> (built with the Xbox 360 XDK); a local Node.js patcher builds the game data pack from your own Steam copy. The project ships no game code or assets. Status: 1.0.0 release candidate.</p>
+              <ul class="tool-card__tags"><li>C99</li><li>Node.js</li><li>Xbox 360 homebrew</li><li>Game</li></ul>
+              <div class="tool-card__links">
+                <a href="https://spikethedragon40k.github.io/vsdemake/">website</a>
+                <a href="https://github.com/SpikeTheDragon40k/vsdemake">source</a>
+              </div>
+            </div>
+          </div>
+      - layout: top-middle
+        title: ISO2GOD2XBOX Suite
+        description: | # this will include new lines to allow paragraphs
+          <div class="tool-card tool-card--iso2god">
+            <img class="tool-card__logo" src="https://spikethedragon40k.github.io/xbox360_ISO2GOD2XBOX_Suite/logo.png" alt="ISO2GOD2XBOX Suite logo" width="48" height="48">
+            <div class="tool-card__body">
+              <span class="tool-card__name">ISO2GOD2XBOX Suite</span>
+              <span class="tool-card__tagline">Convert Xbox 360 ISOs to GOD and upload them over FTP.</span>
+              <p class="tool-card__desc">Bash tools for Linux to batch-convert Xbox 360 ISOs to Games on Demand (GOD) with iso2god-rs and upload them to Aurora/FSD over FTP, with a live progress bar, safe ISO cleanup, .env config and an optional TUI.</p>
+              <ul class="tool-card__tags"><li>Bash</li><li>CLI</li><li>Xbox 360</li><li>Linux</li></ul>
+              <div class="tool-card__links">
+                <a href="https://spikethedragon40k.github.io/xbox360_ISO2GOD2XBOX_Suite/">website</a>
+                <a href="https://github.com/SpikeTheDragon40k/xbox360_ISO2GOD2XBOX_Suite">source</a>
+              </div>
+            </div>
+          </div>
+
+      - layout: top-middle
+        title: Orbit Rush
+        description: | # this will include new lines to allow paragraphs
+          <div class="tool-card tool-card--orbit">
+            <img class="tool-card__logo" src="https://spikethedragon40k.github.io/pico-orbit/logo.png" alt="Orbit Rush — PICO-8 Edition logo" width="48" height="48">
+            <div class="tool-card__body">
+              <span class="tool-card__name">Orbit Rush <small class="tool-card__badge">PICO-8</small></span>
+              <span class="tool-card__tagline">Guard your goal. Curve, dash, grab — last pilot standing wins.</span>
+              <p class="tool-card__desc">A standalone single-player PICO-8 demake of <a href="https://github.com/SpikeTheDragon40k/orbit-rush">Orbit Rush</a>. Defend the bottom goal against 1–3 predictive CPUs across four arenas and four difficulties, with DASH, GRAB/THROW, spin, pickups and up to five balls. Version 0.1.0 (release candidate).</p>
+              <ul class="tool-card__tags"><li>PICO-8</li><li>Lua</li><li>Game</li><li>Demake</li></ul>
+              <div class="tool-card__links">
+                <a href="https://www.lexaloffle.com/bbs/?pid=199244#p">play</a>
+                <a href="https://spikethedragon40k.github.io/pico-orbit/">website</a>
+                <a href="https://github.com/SpikeTheDragon40k/pico-orbit">source</a>
+              </div>
+            </div>
+          </div>
+
   - title: A Little More About Me
     layout: text
     content: |
