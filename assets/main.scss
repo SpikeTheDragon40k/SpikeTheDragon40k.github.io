@@ -184,3 +184,24 @@ code { font-family: $mono; }
     }
   }
 }
+
+// Orbit Rush accent variant (PICO-8 palette)
+.tool-card--orbit {
+  background: #000000;
+  border-color: #1d2b53;
+  border-left-color: #ff77a8;
+  color: #fff1e8;
+
+  .tool-card__logo { image-rendering: pixelated; }
+  .tool-card__name { color: #29adff; }
+  .tool-card__badge { color: #ffa300; font-size: .65em; font-weight: normal; }
+  .tool-card__tagline { color: #c2c3c7; }
+  .tool-card__desc a { color: #00e436; }
+  .tool-card__desc { color: #fff1e8; }
+  .tool-card__tags li { border-color: #1d2b53; color: #29adff; }
+  .tool-card__links a {
+    border-color: #ff77a8; color: #ff77a8;
+    &::before { color: #29adff; }
+    &:hover { background: #ff77a8; color: #000000; }
+  }
+}
