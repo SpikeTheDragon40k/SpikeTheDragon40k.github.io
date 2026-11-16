@@ -51,7 +51,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profilespike.jpg
+about_profile_image: https://avatars.githubusercontent.com/u/68734231?s=400&u=fe94f2156910da1e92d2d0dd31a96c055077e213&v=4
 about_content: | # this will include new lines to allow paragraphs
     Hi, I'm Adriano, a cybersecurity professional based in Verona, Italy. I currently lead a managed detection and response team at HWG Sababa, owning the deployment and operation of EDR, NDR and OT security platforms for enterprise clients. My background spans more than a decade in IT and DevOps before moving into security operations, which shapes how I work: I care as much about how a platform is deployed, integrated and kept healthy as about what it detects.
 

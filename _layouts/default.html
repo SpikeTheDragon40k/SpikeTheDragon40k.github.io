@@ -16,7 +16,7 @@
 
     <header class="hero">
       {% if site.about_profile_image %}
-      <img class="hero__avatar" src="{{ site.about_profile_image | relative_url }}" alt="{{ site.name }}" width="112" height="112">
+      <img class="hero__avatar" src="{% if site.about_profile_image contains "://" %}{{ site.about_profile_image }}{% else %}{{ site.about_profile_image | relative_url }}{% endif %}" alt="{{ site.name }}" width="112" height="112">
       {% endif %}
       <div class="hero__text">
         <p class="hero__prompt">~$ whoami</p>
