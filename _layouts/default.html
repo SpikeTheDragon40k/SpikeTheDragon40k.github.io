@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" href="{{ site.favicon | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+  <main class="page">
+
+    <header class="hero">
+      {% if site.about_profile_image %}
+      <img class="hero__avatar" src="{{ site.about_profile_image | relative_url }}" alt="{{ site.name }}" width="112" height="112">
+      {% endif %}
+      <div class="hero__text">
+        <p class="hero__prompt">~$ whoami</p>
+        <h1 class="hero__name">{{ site.name }}<span class="cursor">_</span></h1>
+        <p class="hero__title">{{ site.title }}</p>
+        <nav class="hero__links" aria-label="Social links">
+          {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+          {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+          {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+          {% for link in site.additional_links %}<a href="{{ link.url }}" title="{{ link.title }}"><i class="{{ link.icon }}"></i></a>{% endfor %}
+        </nav>
+      </div>
+    </header>
+
+    {% if site.about_content %}
+    <section class="section">
+      <h2 class="section__title">{{ site.about_title | default: "About Me" }}</h2>
+      <div class="prose">{{ site.about_content | markdownify }}</div>
+    </section>
+    {% endif %}
+
+    {% for section in site.content %}
+    <section class="section">
+      <h2 class="section__title">{{ section.title }}</h2>
+
+      {% if section.layout == "text" %}
+        <div class="prose">{{ section.content | markdownify }}</div>
+      {% else %}
+        <div class="entries">
+        {% for item in section.content %}
+          {% if item.description contains 'class="tool-card' %}
+            {{ item.description }}
+          {% else %}
+          <article class="entry">
+            <div class="entry__head">
+              <h3 class="entry__title">
+                {% if item.link %}<a href="{% unless item.link contains '://' %}https://{% endunless %}{{ item.link }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+              </h3>
+              {% if item.caption %}<span class="entry__caption">{{ item.caption }}</span>{% endif %}
+            </div>
+            {% if item.sub_title %}<p class="entry__sub">{{ item.sub_title }}</p>{% endif %}
+            {% if item.quote %}<p class="entry__quote">{{ item.quote }}</p>{% endif %}
+            {% if item.description %}
+              {% if item.description contains "- " or item.description contains "**" %}
+                <div class="prose">{{ item.description | markdownify }}</div>
+              {% else %}
+                <ul class="entry__points">
+                {% assign lines = item.description | newline_to_br | split: "<br />" %}
+                {% for line in lines %}{% assign l = line | strip %}{% if l != "" %}<li>{{ l }}</li>{% endif %}{% endfor %}
+                </ul>
+              {% endif %}
+            {% endif %}
+          </article>
+          {% endif %}
+        {% endfor %}
+        </div>
+      {% endif %}
+    </section>
+    {% endfor %}
+
+    <footer class="footer">
+      {% if site.footer_show_references %}<p>{{ site.references_title | default: "References available on request" }}</p>{% endif %}
+      <p class="footer__prompt">~$ exit</p>
+    </footer>
+
+  </main>
+</body>
+</html>
