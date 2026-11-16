@@ -246,6 +246,23 @@ content:
             </div>
           </div>
 
+      - layout: top-middle
+        title: DaybreakBuilder
+        description: | # this will include new lines to allow paragraphs
+          <div class="tool-card tool-card--daybreak">
+            <img class="tool-card__logo" src="https://spikethedragon40k.github.io/DaybreakBuilder/logo.png" alt="DaybreakBuilder logo" width="48" height="48">
+            <div class="tool-card__body">
+              <span class="tool-card__name">DaybreakBuilder</span>
+              <span class="tool-card__tagline">Build heroes. Run worlds.</span>
+              <p class="tool-card__desc">D&amp;D 5e character builder &amp; GM toolkit. Reads Aurora content.</p>
+              <ul class="tool-card__tags"><li>TypeScript</li><li>Tauri</li><li>D&amp;D 5e</li><li>Windows / Linux</li></ul>
+              <div class="tool-card__links">
+                <a href="https://spikethedragon40k.github.io/DaybreakBuilder/">website</a>
+                <a href="https://github.com/SpikeTheDragon40k/DaybreakBuilder">source</a>
+              </div>
+            </div>
+          </div>
+
   - title: A Little More About Me
     layout: text
     content: |

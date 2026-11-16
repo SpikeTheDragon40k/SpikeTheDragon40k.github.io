@@ -205,3 +205,23 @@ code { font-family: $mono; }
     &:hover { background: #ff77a8; color: #000000; }
   }
 }
+
+// DaybreakBuilder accent variant (parchment / D&D palette)
+.tool-card--daybreak {
+  background: #f4f2ee;
+  border-color: #ddd7cc;
+  border-left-color: #8b1e1e;
+  color: #1f1d1a;
+  font-family: Georgia, serif;
+
+  .tool-card__logo { border-radius: 10px; }
+  .tool-card__name { color: #8b1e1e; font-family: 'Cinzel', Georgia, serif; }
+  .tool-card__tagline { color: #6b665e; font-style: italic; }
+  .tool-card__desc { color: #1f1d1a; }
+  .tool-card__tags li { border-color: #ddd7cc; color: #8b1e1e; }
+  .tool-card__links a {
+    border-color: #8b1e1e; color: #8b1e1e;
+    &::before { color: #6b665e; }
+    &:hover { background: #8b1e1e; color: #f4f2ee; }
+  }
+}
