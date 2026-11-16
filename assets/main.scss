@@ -3,3 +3,46 @@
 ---
 
 @import 'modern-resume-theme';
+
+// Tool cards (Projects section) - black-and-green terminal style
+.tool-card {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 16px;
+  margin: 8px 0;
+  background: #1b1b1b;
+  border: 1px solid #2a2a2a;
+  border-left: 3px solid #12a36a;
+  border-radius: 8px;
+  color: #d6d6d6;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  text-align: left;
+
+  &__logo { flex: none; border-radius: 10px; }
+  &__body { min-width: 0; }
+  &__name { display: block; color: #12a36a; font-weight: bold; font-size: 1.15em; }
+  &__tagline { display: block; color: #8a8a8a; }
+  &__desc { margin: 10px 0; color: #d6d6d6; }
+
+  &__tags {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    list-style: none; margin: 0 0 12px; padding: 0;
+    li {
+      padding: 2px 8px; border: 1px solid #0f6b48; border-radius: 4px;
+      color: #12a36a; font-size: 0.85em;
+      &::before { content: none; }
+    }
+  }
+
+  &__links a {
+    display: inline-block; margin-right: 8px; padding: 4px 12px;
+    border: 1px solid #12a36a; border-radius: 4px;
+    color: #12a36a; text-decoration: none;
+    &::before { content: '> '; color: #0f6b48; }
+    &:hover { background: #12a36a; color: #1b1b1b; }
+  }
+
+  @media (max-width: 480px) { flex-direction: column; }
+}

@@ -63,15 +63,26 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      # Tool card: copy this whole entry to add another tool.
       - layout: top-middle
         title: sshman
-        link: github.com/SpikeTheDragon40k/sshman
+        link: https://sshman-org.github.io/sshman/
         quote: >
-          sshman revolutionizes secure SSH management—encrypted vaults make key handling effortless for homelabs and enterprises.
+          Encrypted SSH key & connection manager. Keys never touch disk.
         description: | # this will include new lines to allow paragraphs
-          sshman is my open-source CLI tool for managing SSH keys and connections with encrypted .vssh vaults, key generation, and direct SSH support—perfect for threat hunters juggling multiple endpoints.
-          Born from real-world SecOps needs, it streamlines secure access in homelabs (Raspberry Pi clusters) and production (CrowdStrike/Sophos fleets). 
-          With 5 releases and growing stars, it's a portfolio highlight showcasing my bash scripting and crypto skills.
+          <div class="tool-card">
+            <img class="tool-card__logo" src="https://sshman-org.github.io/sshman/logo.png" alt="sshman logo" width="48" height="48">
+            <div class="tool-card__body">
+              <span class="tool-card__name">sshman</span>
+              <span class="tool-card__tagline">Encrypted SSH key &amp; connection manager. Keys never touch disk.</span>
+              <p class="tool-card__desc">A small CLI that keeps SSH connection profiles and their private keys in one password-encrypted vault (AES-256-GCM + Argon2id) and connects with OpenSSH through a private, read-only, per-session agent. No daemon, no cloud, no telemetry.</p>
+              <ul class="tool-card__tags"><li>Go</li><li>CLI</li><li>Security</li><li>SSH</li><li>Linux / macOS / Windows</li></ul>
+              <div class="tool-card__links">
+                <a href="https://sshman-org.github.io/sshman/">website</a>
+                <a href="https://github.com/sshman-org/sshman">source</a>
+              </div>
+            </div>
+          </div>
       - layout: top-middle
         title: TLDR Pages
         link: github.com/tldr-pages/tldr
