@@ -66,3 +66,21 @@
     &:hover { background: #ffb22e; color: #0d0b14; }
   }
 }
+
+// ISO2GOD2XBOX Suite accent variant (Xbox green palette)
+.tool-card--iso2god {
+  background: #141a14;
+  border-color: #243024;
+  border-left-color: #5dc21e;
+  color: #e6efe6;
+
+  .tool-card__name { color: #5dc21e; }
+  .tool-card__tagline { color: #9aab9a; }
+  .tool-card__desc { color: #e6efe6; }
+  .tool-card__tags li { border-color: #243024; color: #5dc21e; }
+  .tool-card__links a {
+    border-color: #5dc21e; color: #5dc21e;
+    &::before { color: #9aab9a; }
+    &:hover { background: #5dc21e; color: #141a14; }
+  }
+}

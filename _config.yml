@@ -97,6 +97,22 @@ content:
             </div>
           </div>
       - layout: top-middle
+        title: ISO2GOD2XBOX Suite
+        description: | # this will include new lines to allow paragraphs
+          <div class="tool-card tool-card--iso2god">
+            <img class="tool-card__logo" src="https://spikethedragon40k.github.io/xbox360_ISO2GOD2XBOX_Suite/logo.png" alt="ISO2GOD2XBOX Suite logo" width="48" height="48">
+            <div class="tool-card__body">
+              <span class="tool-card__name">ISO2GOD2XBOX Suite</span>
+              <span class="tool-card__tagline">Convert Xbox 360 ISOs to GOD and upload them over FTP.</span>
+              <p class="tool-card__desc">Bash tools for Linux to batch-convert Xbox 360 ISOs to Games on Demand (GOD) with iso2god-rs and upload them to Aurora/FSD over FTP, with a live progress bar, safe ISO cleanup, .env config and an optional TUI.</p>
+              <ul class="tool-card__tags"><li>Bash</li><li>CLI</li><li>Xbox 360</li><li>Linux</li></ul>
+              <div class="tool-card__links">
+                <a href="https://spikethedragon40k.github.io/xbox360_ISO2GOD2XBOX_Suite/">website</a>
+                <a href="https://github.com/SpikeTheDragon40k/xbox360_ISO2GOD2XBOX_Suite">source</a>
+              </div>
+            </div>
+          </div>
+      - layout: top-middle
         title: TLDR Pages
         link: github.com/tldr-pages/tldr
         quote: >
