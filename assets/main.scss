@@ -46,3 +46,23 @@
 
   @media (max-width: 480px) { flex-direction: column; }
 }
+
+// vsdemake accent variant (pixel-art amber palette)
+.tool-card--vsdemake {
+  background: #0d0b14;
+  border-color: #2a2433;
+  border-left-color: #ffb22e;
+  color: #f2ede4;
+
+  .tool-card__logo { image-rendering: pixelated; }
+  .tool-card__name { color: #ffb22e; }
+  .tool-card__tagline { color: #a59fae; }
+  .tool-card__desc { color: #f2ede4; }
+  .tool-card__desc code { color: #ffb22e; background: none; }
+  .tool-card__tags li { border-color: #8a1010; color: #ffb22e; }
+  .tool-card__links a {
+    border-color: #ffb22e; color: #ffb22e;
+    &::before { color: #e8650a; }
+    &:hover { background: #ffb22e; color: #0d0b14; }
+  }
+}

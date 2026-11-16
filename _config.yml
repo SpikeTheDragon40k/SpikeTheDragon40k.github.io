@@ -81,21 +81,29 @@ content:
             </div>
           </div>
       - layout: top-middle
+        title: vsdemake
+        description: | # this will include new lines to allow paragraphs
+          <div class="tool-card tool-card--vsdemake">
+            <img class="tool-card__logo" src="https://spikethedragon40k.github.io/vsdemake/favicon.png" alt="vsdemake icon" width="48" height="48">
+            <div class="tool-card__body">
+              <span class="tool-card__name">vsdemake</span>
+              <span class="tool-card__tagline">Unofficial Vampire Survivors demake for Xbox 360 homebrew.</span>
+              <p class="tool-card__desc">An unofficial Xbox 360 homebrew demake of Vampire Survivors 0.2.10. A C99 engine runs as <code>default.xex</code> (built with the Xbox 360 XDK); a local Node.js patcher builds the game data pack from your own Steam copy. The project ships no game code or assets. Status: 1.0.0 release candidate.</p>
+              <ul class="tool-card__tags"><li>C99</li><li>Node.js</li><li>Xbox 360 homebrew</li><li>Game</li></ul>
+              <div class="tool-card__links">
+                <a href="https://spikethedragon40k.github.io/vsdemake/">website</a>
+                <a href="https://github.com/SpikeTheDragon40k/vsdemake">source</a>
+              </div>
+            </div>
+          </div>
+      - layout: top-middle
         title: TLDR Pages
         link: github.com/tldr-pages/tldr
         quote: >
           TLDR Pages is cybersecurity documentation gold—60k+ stars prove it's the CLI reference everyone needs.
         description: | # this will include new lines to allow paragraphs
          As Organization Manager for TLDR Pages (60,000+ GitHub stars), I manage repo access, review contributions, and maintain simplified command-line docs for tools used in Linux, Windows and other OSes . If you need concise CLI mastery, TLDR Pages (with my contributions) delivers.
-      - layout: top-middle
-        title: Cyber Fortress - A Cybersecurity Manual for SMBs
-        link: github.com/SpikeTheDragon40k/Cyber-Fortress-A-Cybersecurity-Manual-for-SMBs
-        quote: >
-          Cyber Fortress equips SMBs with practical cybersecurity defenses—your manual for threat-proofing small businesses.
-        description: | # this will include new lines to allow paragraphs
-          Cyber Fortress is my comprehensive open-source manual tailored for SMBs, delivering actionable guides on EDR deployment, threat hunting basics, endpoint hardening, and cost-effective defenses against real-world attacks.
-          Drawing from enterprise experience (CrowdStrike, Sophos, Tenable), it demystifies SecOps for non-experts while providing checklists and configs for immediate implementation. Essential reading for Italian SMBs building robust security postures.
-  
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
