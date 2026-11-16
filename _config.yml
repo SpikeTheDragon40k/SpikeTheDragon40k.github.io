@@ -66,9 +66,6 @@ content:
       # Tool card: copy this whole entry to add another tool.
       - layout: top-middle
         title: sshman
-        link: https://sshman-org.github.io/sshman/
-        quote: >
-          Encrypted SSH key & connection manager. Keys never touch disk.
         description: | # this will include new lines to allow paragraphs
           <div class="tool-card">
             <img class="tool-card__logo" src="https://sshman-org.github.io/sshman/logo.png" alt="sshman logo" width="48" height="48">
