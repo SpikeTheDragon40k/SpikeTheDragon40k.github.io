@@ -84,3 +84,21 @@
     &:hover { background: #5dc21e; color: #141a14; }
   }
 }
+
+// tldr-pages card: mini tldr page, in the style of tldr.inbrowser.app
+.tool-card--tldr {
+  .tldr-page {
+    margin: 10px 0; padding: 10px 12px;
+    background: #111; border: 1px solid #2a2a2a; border-radius: 6px;
+    line-height: 1.5;
+    &__title { color: #fff; font-weight: bold; font-size: 1.1em; }
+    &__quote { color: #8a8a8a; margin-bottom: 6px; }
+    &__desc { color: #12a36a; margin-top: 6px; }
+    &__cmd {
+      display: block; padding: 2px 8px; margin-top: 2px;
+      background: #1b1b1b; border-radius: 4px; color: #d6d6d6;
+      font-family: inherit; white-space: pre-wrap;
+      span { color: #e5c07b; }
+    }
+  }
+}

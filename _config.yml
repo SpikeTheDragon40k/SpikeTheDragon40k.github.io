@@ -63,6 +63,32 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: TLDR Pages
+        description: | # this will include new lines to allow paragraphs
+          <div class="tool-card tool-card--tldr">
+            <img class="tool-card__logo" src="https://raw.githubusercontent.com/tldr-pages/tldr/main/images/logo.png" alt="tldr-pages logo" width="48" height="48">
+            <div class="tool-card__body">
+              <span class="tool-card__name">tldr-pages</span>
+              <span class="tool-card__tagline">Collaborative cheatsheets for console commands. I'm an Organization Manager.</span>
+              <div class="tldr-page">
+                <div class="tldr-page__title"># tldr</div>
+                <div class="tldr-page__quote">&gt; Display simple help pages for command-line tools.</div>
+                <div class="tldr-page__desc">- Show examples for a command:</div>
+                <code class="tldr-page__cmd">tldr <span>command</span></code>
+                <div class="tldr-page__desc">- Search pages by keyword:</div>
+                <code class="tldr-page__cmd">tldr --search <span>"keyword"</span></code>
+              </div>
+              <p class="tool-card__desc">As Organization Manager for tldr-pages (60,000+ GitHub stars), I manage repo access, review contributions, and maintain simplified command-line docs for tools on Linux, macOS, Windows and other platforms.</p>
+              <ul class="tool-card__tags"><li>Open source</li><li>Documentation</li><li>CLI</li><li>Community</li></ul>
+              <div class="tool-card__links">
+                <a href="https://tldr.inbrowser.app/">browse</a>
+                <a href="https://tldr.sh/">website</a>
+                <a href="https://github.com/tldr-pages/tldr">source</a>
+              </div>
+            </div>
+          </div>
+
       # Tool card: copy this whole entry to add another tool.
       - layout: top-middle
         title: sshman
@@ -112,13 +138,6 @@ content:
               </div>
             </div>
           </div>
-      - layout: top-middle
-        title: TLDR Pages
-        link: github.com/tldr-pages/tldr
-        quote: >
-          TLDR Pages is cybersecurity documentation gold—60k+ stars prove it's the CLI reference everyone needs.
-        description: | # this will include new lines to allow paragraphs
-         As Organization Manager for TLDR Pages (60,000+ GitHub stars), I manage repo access, review contributions, and maintain simplified command-line docs for tools used in Linux, Windows and other OSes . If you need concise CLI mastery, TLDR Pages (with my contributions) delivers.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
